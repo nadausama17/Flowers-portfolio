@@ -1,0 +1,471 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    margin:1%;
+    background-color: #E59500;
+    display: flex;
+    flex-direction:column;
+    height:100vh;
+}
+header
+{
+    background-color: #002642;
+    text-align:center;
+    position: relative;
+    margin-bottom:1%;
+    height:auto !important; 
+    padding: 1%;
+    font-family: 'Grandstander', cursive;
+}
+
+#header_gi
+{
+     height:auto !important;
+     margin-bottom:4%;
+}
+h1
+{
+    color: #E5DADA;
+    padding-top:1%;
+    text-shadow: 2px 2px 9px #E59500;
+}
+#nav_lg
+{
+    display:none;
+}
+.slideshow-container
+{
+    display:none;
+}
+#container
+{
+    width:100%;
+    margin:0 auto;
+    background-color: #E5DADA;
+}
+#parallax
+{
+  background: url('https://wallpaperaccess.com/full/247820.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+#dropdown_menu
+{
+    float: left;
+}
+#dropdown_content
+{   
+    position: absolute;
+    background-color: #840032;
+    display:none;
+}
+#dropdown_content a
+{
+    display:block;
+    text-decoration: none;
+    line-height: 130%;
+    padding: 1%;
+    color: #E5DADA;
+    border:1px solid #02040F;
+}
+#dropdown_content a:hover
+{
+    background-color: #E5DADA;
+    color: #840032;
+}
+#australia_sec
+{ 
+    flex:1;
+    margin-bottom:1%;
+}
+#before_footer_gallery
+{ 
+    flex:1;
+    margin-bottom:1%;
+    height:auto;
+}
+#before_footer_index
+{
+    flex:1;
+    padding-top:10%; 
+    padding-bottom:10%; 
+}
+#flower_cover
+{
+     width: 100%;
+}
+#home_content
+{
+    position: absolute;
+    top:60%;
+    width:96%;
+   margin-bottom: 1%;
+    background-color:#02040F;
+    color:#E5DADA;
+    font-size:150%;
+    padding:1%;
+}
+
+#last_line
+{
+    color:#840032;
+}
+footer
+{
+    background-color: #002642;
+    text-align:center;
+    color: #E59500;
+    padding:1% 0%;
+    font-family: 'Grandstander', cursive;
+}
+
+footer a
+{
+    text-decoration: underline;
+    color:#E5DADA; 
+}
+#menu
+{
+    padding:10px 15px;
+    font-size:120%;
+    background-color: #840032;
+}
+#before_footer_gallery img
+{
+    width:100%;
+    max-height:80vh;
+}
+#asia_sec ,#africa_sec,#europe_sec,#australia_sec
+{
+    display:none;
+}
+#asia_sec img,#africa_sec img,#europe_sec img,#australia_sec img
+{
+    width:100%;
+    max-height:80vh;
+}
+#asia_sec div,#africa_sec div,#europe_sec div,#australia_sec div
+{
+    border:2px solid #840032;
+    margin-bottom:4%;
+    text-align:center;
+    height:auto;
+    background-color:#02040F;
+}
+#before_footer_gallery div
+{
+    border:2px solid #840032;
+    text-align:center;
+    margin-bottom:4%;
+    height:auto;
+    background-color: #02040F;
+    color: #E5DADA;
+}
+#before_footer_gallery h2
+{
+    padding:1% 0%;
+    font-family: 'Grandstander', cursive;
+}
+
+#asia_sec h3
+{
+    background-color:#02040F;
+    color:#840032;
+    padding-top:1%;
+    font-family: 'Grandstander', cursive;
+}
+
+#asia_sec p
+{
+    font-weight:bold;
+    color:#002642;
+    margin-bottom:4%;
+}
+#asia_sec div p
+{
+   margin-bottom: 0%;
+    color:#E5DADA;
+    padding:1%;
+    font-weight: normal;
+}
+
+#africa_sec h3
+{
+    background-color:#02040F;
+    color:#840032;
+    padding-top:1%;
+    font-family: 'Grandstander', cursive;
+}
+
+#africa_sec p
+{
+    font-weight:bold;
+    color:#002642;
+    margin-bottom:4%;
+}
+#africa_sec div p
+{
+   margin-bottom: 0%;
+    color:#E5DADA;
+    padding:1%;
+    font-weight: normal;
+}
+
+#europe_sec h3
+{
+    background-color:#02040F;
+    color:#840032;
+    padding-top:1%;
+    font-family: 'Grandstander', cursive;
+}
+
+#europe_sec p
+{
+    font-weight:bold;
+    color:#002642;
+    margin-bottom:4%;
+}
+#europe_sec div p
+{
+   margin-bottom: 0%;
+    color:#E5DADA;
+    padding:1%;
+    font-weight: normal;
+}
+#australia_sec h3
+{
+    background-color:#02040F;
+    color:#840032;
+    padding-top:1%;
+    font-family: 'Grandstander', cursive;
+}
+
+#australia_sec p
+{
+    font-weight:bold;
+    color:#002642;
+    margin-bottom:4%;
+}
+#australia_sec div p
+{
+   margin-bottom: 0%;
+    color:#E5DADA;
+    padding:1%;
+    font-weight: normal;
+}
+#buttons
+{
+    flex:1;
+}
+#buttons button
+{
+    height:10%;
+    display: block;
+    margin:0 auto;
+    width:50%;
+    margin-bottom:10%;
+    background-color: #E5DADA;
+    color:#840032;
+    font-size: 120%;
+    font-weight: bold;
+}
+#buttons button:hover
+{
+    background-color: #840032;
+    color:#E5DADA;
+}
+section a:hover img
+{
+    opacity: 0.7;
+}
+#con_name
+{
+    background-color: #E5DADA;
+    padding:2%;
+    margin:0 auto;
+    margin-bottom: 2%;
+    color: #002642;
+    display: none;
+    
+}
+#ref_asia,#ref_africa,#ref_europe,#ref_australia
+{
+    display:none;
+}
+
+@media screen and (min-width:992px)
+{
+    header
+{
+    background-color: #E5DADA;
+    font-family: 'Anton', sans-serif;
+}
+    h1
+    {
+        color: #002642;
+        text-shadow: 2px 2px 9px #E59500;
+    }
+    
+    footer
+{
+    background-color: #E5DADA;
+    color: #002642;
+    font-family: 'Anton', sans-serif;
+}
+
+footer a
+{
+    color:#840032; 
+}
+    #nav_lg
+{
+    display:block;
+    margin-top:1%;
+    position: relative;
+    left:1.2%;
+}
+#dropdown_menu
+{
+    display: none;
+}
+#nav_lg a
+{
+    display:inline-block;
+    background-color:#840032;
+    margin-right:4%;
+    padding:1%;
+    margin-bottom:1%;
+    color:#E5DADA;
+    text-decoration:none;
+}
+#nav_lg a:last-child
+{
+    margin-right: 0%;
+}
+#nav_lg a:hover
+{
+    background-color: #E59500;
+    color: #002642;
+}
+#home_content
+{
+    position: static;
+    float:left;
+    width:46%;
+    margin-right: 5%;
+    height:285px;
+    text-align: center;
+    padding: 0%;
+}
+#container
+{
+    display:none;
+}
+#home_content p
+{
+   position: relative;
+   top:30%;
+} 
+.slideshow-container
+{
+    display:inline-block;
+    width:46%;
+    height:285px;
+    position: relative;
+   /* background-color: #E5DADA;*/
+}
+.slideshow-container img
+{
+    width: 100%;
+    height:285px;
+}
+.mySlides {
+    display: none;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%; 
+    padding: 2%;
+    font-weight: bold;
+    color:#E5DADA;
+
+    transition: 0.6s ease;
+   /* user-select: none;*/
+  }
+  .next {
+    right: 0;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .numbertext {
+    color: #f2f2f2;
+   /* font-size: 12px;*/
+   font-weight: bold;
+    padding: 8px;
+    position: absolute;
+    top: 0;
+  }
+  .dot {
+   /*   position: relative;
+      left:70%;*/
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 4px;
+    background-color: #f2f2f2;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #02040F;
+  }
+  
+/*#flower_cover
+{
+    float:left;
+    width:46%;
+    height:285px;
+}*/
+
+#before_footer_gallery
+{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-gap: 10px;
+}
+
+#before_footer_gallery img
+{
+    height:45vh;
+}
+
+#asia_sec ,#africa_sec,#europe_sec,#australia_sec
+{
+    display: none;
+}
+
+#asia_sec img,#africa_sec img,#europe_sec img,#australia_sec img
+{
+    height:45vh;
+}
+#buttons button
+{
+    display: inline-block;
+    width:48%;
+    background-color: #002642;
+    color:#E59500;
+    margin-left:1%;
+}
+}
